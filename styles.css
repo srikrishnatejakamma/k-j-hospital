@@ -4010,3 +4010,72 @@ textarea:focus-visible {
     animation: none;
   }
 }
+
+@media (max-width: 900px) {
+  .site-header .nav-wrap {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+
+  .site-header .brand {
+    min-width: 0;
+    flex: 1 1 auto;
+    gap: 0.55rem;
+  }
+
+  .site-header .brand > div:last-child {
+    min-width: 0;
+  }
+
+  .site-header .brand-mark {
+    width: 40px;
+    height: 40px;
+    flex: none;
+  }
+
+  .site-header .brand strong {
+    font-size: clamp(0.75rem, 3.4vw, 0.92rem);
+    letter-spacing: -0.025em;
+    white-space: nowrap;
+  }
+
+  .site-header .brand small {
+    font-size: 0.68rem;
+  }
+
+  .site-header .nav-toggle {
+    width: 2.5rem;
+    height: 2.5rem;
+    flex: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .site-header .nav-wrap {
+    padding-right: 0.55rem;
+    padding-left: 0.65rem;
+  }
+
+  .site-header .brand-mark {
+    width: 36px;
+    height: 36px;
+  }
+
+  .site-header .brand strong {
+    font-size: 0.74rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header .brand {
+    flex: 0 0 auto;
+  }
+
+  .site-header .brand > div:last-child {
+    display: none;
+  }
+
+  .site-header .nav-wrap {
+    justify-content: space-between;
+  }
+}
