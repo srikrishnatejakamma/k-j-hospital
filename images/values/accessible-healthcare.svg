@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Accessible healthcare illustration</title>
+  <rect width="480" height="240" rx="22" fill="#edf3ff"/>
+  <circle cx="81" cy="49" r="62" fill="#dfe9ff"/><circle cx="405" cy="210" r="75" fill="#e2eff7"/>
+  <path d="M95 174h290" stroke="#8eb1c9" stroke-width="9" stroke-linecap="round"/>
+  <path d="M135 174V96l89-44 89 44v78" fill="#fff" stroke="#7398ba" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M191 174v-51a33 33 0 0 1 66 0v51" fill="#dcecf5" stroke="#7398ba" stroke-width="4"/>
+  <path d="M224 81v32m-16-16h32" stroke="#239b9c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M328 142c0-18 24-28 37-9 13-19 37-9 37 9 0 23-37 44-37 44s-37-21-37-44z" fill="#f1aa73"/>
+  <path d="M75 129h39m-19-19v39" stroke="#79bdb2" stroke-width="7" stroke-linecap="round"/>
+</svg>

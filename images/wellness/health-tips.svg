@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Everyday health and wellbeing</title>
+  <rect width="480" height="240" rx="24" fill="#e9f6ee"/>
+  <circle cx="78" cy="45" r="67" fill="#d8efdf"/><circle cx="411" cy="208" r="73" fill="#dcefe9"/>
+  <rect x="82" y="47" width="316" height="147" rx="22" fill="#f8fcf8"/>
+  <path d="M239 158V94" stroke="#508e68" stroke-width="8" stroke-linecap="round"/>
+  <path d="M237 112c-37-2-57-25-57-52 31 0 54 13 57 52zm8 17c0-34 24-56 59-57-2 30-22 52-59 57z" fill="#74b97d"/>
+  <path d="M149 163c0-15 18-23 30-9 12-14 30-6 30 9 0 18-30 36-30 36s-30-18-30-36z" fill="#e88778"/>
+  <circle cx="330" cy="122" r="42" fill="#d3ebdc"/>
+  <path d="M330 99v25l18 11" fill="none" stroke="#338e7b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

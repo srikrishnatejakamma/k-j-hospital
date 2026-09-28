@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Community medical camp</title>
+  <rect width="480" height="240" rx="24" fill="#fff2e7"/>
+  <circle cx="83" cy="47" r="64" fill="#ffe4cc"/><circle cx="412" cy="207" r="74" fill="#e4f1ec"/>
+  <path d="M88 179 200 57l112 122" fill="#fff" stroke="#dfac7e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M117 179v-24a83 83 0 0 1 166 0v24" fill="#fff9f3" stroke="#dfac7e" stroke-width="5"/>
+  <path d="M201 93v35m-17-17h34" stroke="#e07867" stroke-width="9" stroke-linecap="round"/>
+  <path d="M142 180c3-20 11-30 24-30s21 10 24 30m57 0c3-20 11-30 24-30s21 10 24 30" fill="#77b3a5"/>
+  <circle cx="165" cy="140" r="13" fill="#ecc09a"/><circle cx="272" cy="140" r="13" fill="#ecc09a"/>
+  <path d="M92 193h220" stroke="#8ab79b" stroke-width="9" stroke-linecap="round"/>
+  <path d="M339 102v46m-23-23h46" stroke="#e5a261" stroke-width="8" stroke-linecap="round"/>
+</svg>

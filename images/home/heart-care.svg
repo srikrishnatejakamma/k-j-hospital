@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Heart and cross care symbol</title>
+  <circle cx="56" cy="56" r="54" fill="#FFF"/>
+  <circle cx="56" cy="56" r="43" fill="#E1F5EF"/>
+  <path d="M56 79 31 57c-14-13 5-35 20-21l5 5 5-5c15-14 34 8 20 21L56 79Z" fill="#10A69A"/>
+  <path d="M56 34v27m-13-13h26" stroke="#FFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

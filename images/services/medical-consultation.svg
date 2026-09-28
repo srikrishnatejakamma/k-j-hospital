@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Medical consultation illustration</title>
+  <rect width="480" height="240" rx="22" fill="#e8f5fb"/>
+  <circle cx="374" cy="46" r="72" fill="#d2edf7"/>
+  <circle cx="98" cy="212" r="70" fill="#d8f0ec"/>
+  <rect x="105" y="45" width="270" height="155" rx="18" fill="#fff"/>
+  <rect x="105" y="45" width="270" height="155" rx="18" fill="none" stroke="#c9e1ea" stroke-width="3"/>
+  <circle cx="186" cy="100" r="27" fill="#b9e5e9"/>
+  <path d="M143 169c5-27 20-40 43-40s38 13 43 40" fill="#198c9d"/>
+  <path d="M196 101c0-14 10-25 24-25h13" fill="none" stroke="#11657c" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="242" cy="76" r="8" fill="#11657c"/>
+  <rect x="276" y="78" width="63" height="11" rx="5.5" fill="#b6dce8"/>
+  <rect x="276" y="101" width="48" height="9" rx="4.5" fill="#d4e8ee"/>
+  <rect x="276" y="121" width="59" height="9" rx="4.5" fill="#d4e8ee"/>
+  <circle cx="328" cy="156" r="25" fill="#1aa5a0"/>
+  <path d="M328 142v28m-14-14h28" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+</svg>

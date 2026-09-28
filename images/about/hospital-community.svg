@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-labelledby="title">
+  <title id="title">A welcoming community hospital</title>
+  <rect width="360" height="260" rx="24" fill="#e9f4fb"/>
+  <circle cx="309" cy="41" r="42" fill="#d8eaf5"/>
+  <path d="M40 223h281" stroke="#93c6ad" stroke-width="11" stroke-linecap="round"/>
+  <path d="M89 222V96h182v126" fill="#fff" stroke="#9fc4d0" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M74 98 180 45l106 53" fill="#72a9b6" stroke="#72a9b6" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="143" y="115" width="74" height="107" rx="9" fill="#d8eef0"/>
+  <path d="M180 132v48m-24-24h48" stroke="#159d97" stroke-width="11" stroke-linecap="round"/>
+  <rect x="103" y="117" width="27" height="36" rx="5" fill="#d9edf4"/>
+  <rect x="230" y="117" width="27" height="36" rx="5" fill="#d9edf4"/>
+  <path d="M66 220v-34m-17 34v-22m227 22v-37m18 37v-25" stroke="#64a88d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="57" cy="177" r="17" fill="#7abb94"/><circle cx="308" cy="176" r="20" fill="#7abb94"/>
+</svg>

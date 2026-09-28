@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Diagnostic support</title>
+  <rect width="480" height="240" rx="24" fill="#e9f4fb"/>
+  <circle cx="79" cy="39" r="65" fill="#dcecf7"/><circle cx="416" cy="215" r="73" fill="#e1f2ed"/>
+  <rect x="69" y="44" width="342" height="154" rx="20" fill="#f9fcff"/>
+  <rect x="103" y="70" width="113" height="100" rx="11" fill="#e5eef9"/>
+  <path d="M119 148v-20l19-19 18 12 31-35" fill="none" stroke="#6685ce" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="138" cy="109" r="5" fill="#6685ce"/><circle cx="187" cy="86" r="5" fill="#6685ce"/>
+  <path d="M278 81v49a31 31 0 0 1-31 31h-5m36-80h42m-57 80h79" fill="none" stroke="#308c9b" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m278 81 22 22m-36 58 15-21" stroke="#308c9b" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="284" cy="74" r="14" fill="#efbd91"/>
+  <path d="M231 180h103" stroke="#7186ae" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Convenient access to care illustration</title>
+  <rect width="480" height="240" rx="22" fill="#eaf5fb"/>
+  <circle cx="79" cy="45" r="63" fill="#d7edf7"/><circle cx="406" cy="206" r="74" fill="#dff0f2"/>
+  <path d="M106 74h267v109H106z" fill="#fff" stroke="#c5e0e8" stroke-width="4"/>
+  <path d="M106 108h267" stroke="#c5e0e8" stroke-width="4"/>
+  <path d="M136 183v-48h56v48m26 0v-48h42v48m27 0v-48h56v48" fill="#dff1f2"/>
+  <path d="M208 183v-39a28 28 0 0 1 56 0v39" fill="#a9d7dc"/>
+  <path d="M239 131V97" stroke="#20a19b" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="239" cy="91" r="12" fill="#20a19b"/>
+  <path d="M239 198c-31-20-46-38-46-57 0-19 25-29 46-7 21-22 46-12 46 7 0 19-15 37-46 57z" fill="#f2a972"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Patient-centred care illustration</title>
+  <rect width="480" height="240" rx="22" fill="#eaf6f7"/>
+  <circle cx="400" cy="43" r="72" fill="#d5edef"/><circle cx="73" cy="218" r="73" fill="#dcefeb"/>
+  <rect x="92" y="49" width="296" height="145" rx="20" fill="#fff" stroke="#d0e5e7" stroke-width="3"/>
+  <circle cx="184" cy="104" r="25" fill="#f2c49c"/>
+  <path d="M141 171c5-29 20-44 43-44s38 15 43 44" fill="#20899a"/>
+  <circle cx="294" cy="101" r="22" fill="#f2c49c"/>
+  <path d="M257 165c4-25 17-38 37-38s33 13 37 38" fill="#76b6ad"/>
+  <path d="M207 139c17-4 31 0 45 13" fill="none" stroke="#e4a879" stroke-width="7" stroke-linecap="round"/>
+  <path d="M240 74c-11-14-34-7-34 11 0 17 34 36 34 36s34-19 34-36c0-18-23-25-34-11z" fill="#f08072"/>
+</svg>

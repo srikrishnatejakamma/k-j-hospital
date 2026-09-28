@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Patient safety illustration</title>
+  <rect width="480" height="240" rx="22" fill="#f0f3ff"/>
+  <circle cx="408" cy="45" r="67" fill="#e1e7ff"/><circle cx="75" cy="211" r="70" fill="#e2f1f2"/>
+  <path d="M235 39c38 24 73 24 106 26v51c0 45-35 75-106 100-71-25-106-55-106-100V65c33-2 68-2 106-26z" fill="#fff" stroke="#cbd5f3" stroke-width="4"/>
+  <path d="M235 75l59 20v25c0 32-21 54-59 70-38-16-59-38-59-70V95z" fill="#7c8ddd"/>
+  <path d="m207 119 19 19 39-42" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="102" cy="85" r="24" fill="#b9e5e1"/><path d="M90 85h24m-12-12v24" stroke="#279b94" stroke-width="6" stroke-linecap="round"/>
+</svg>

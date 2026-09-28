@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">In-patient room</title>
+  <rect width="480" height="240" rx="24" fill="#edf1ff"/>
+  <circle cx="72" cy="44" r="65" fill="#dfe5fb"/><circle cx="415" cy="220" r="65" fill="#e3eff4"/>
+  <rect x="58" y="44" width="364" height="154" rx="20" fill="#fbfcff"/>
+  <rect x="305" y="66" width="82" height="63" rx="10" fill="#e0e9fa"/>
+  <path d="M346 66v63m-41-31h82" stroke="#fff" stroke-width="7"/>
+  <path d="M111 158V96m0 46h235v20H111z" fill="#7c91d5"/>
+  <rect x="127" y="111" width="86" height="31" rx="12" fill="#fff"/>
+  <path d="M111 162v22m235-22v22" stroke="#576f9f" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="269" cy="120" r="16" fill="#edc49e"/>
+  <path d="M250 144h41v14h-41z" fill="#b6c7ef"/>
+  <path d="M372 90v34m-17-17h34" stroke="#20a198" stroke-width="7" stroke-linecap="round"/>
+  <path d="M77 88v48m-9-39h18" stroke="#6e8ba0" stroke-width="5" stroke-linecap="round"/>
+</svg>

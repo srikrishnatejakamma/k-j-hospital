@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="K J Hospital offers compassionate, patient-centred healthcare services in Chilakaluripet, Andhra Pradesh."
+    />
+    <title>K J Hospital | Compassionate Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+    <link rel="stylesheet" href="styles.css?v=9" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="K J Hospital logo">
+          <div class="brand-mark" aria-hidden="true">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div>
+            <strong>Kandimalla Jayamma Hospital</strong>
+            <small>Compassionate Care</small>
+          </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#doctors">Doctors</a>
+          <a href="#facilities">Facilities</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary nav-cta" href="tel:08647254801">
+          <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.12 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.59 2.6a2 2 0 0 1-.45 2.11L8 9.9a16 16 0 0 0 6.1 6.1l1.47-1.26a2 2 0 0 1 2.11-.45c.83.27 1.7.47 2.6.59A2 2 0 0 1 22 16.92z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Emergency Call
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner-section" aria-label="K J Hospital photo carousel">
+        <div class="banner-carousel" aria-roledescription="carousel" aria-label="Hospital photos">
+          <div class="carousel-track">
+            <article class="slide active" role="group" aria-roledescription="slide" aria-label="1 of 4" aria-hidden="false">
+              <img src="images/item1.png" alt="Patient seating and waiting area at K J Hospital" fetchpriority="high" />
+            </article>
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="2 of 4" aria-hidden="true">
+              <img src="images/item2.webp" alt="Reception desk at K J Hospital" loading="lazy" />
+            </article>
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="3 of 4" aria-hidden="true">
+              <img src="images/item3.webp" alt="Exterior of K J Hospital" loading="lazy" />
+            </article>
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="4 of 4" aria-hidden="true">
+              <img src="images/item4.webp" alt="Exterior of K J Hospital" loading="lazy" />
+            </article>
+          </div>
+
+          <div class="banner-overlay">
+            <p class="banner-kicker"><span class="banner-dot" aria-hidden="true"></span>24/7 patient support</p>
+            <h1 class="banner-title">Kandimalla <span class="brand-highlight">Jayamma</span> Hospital</h1>
+            <p class="banner-subtitle">
+              Compassionate care and trusted local support for families in Chilakaluripet.
+            </p>
+            <div class="banner-actions">
+              <a class="btn btn-primary" href="#about">About K J Hospital</a>
+              <a class="btn btn-secondary" href="tel:08647254801">
+                <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.12 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.59 2.6a2 2 0 0 1-.45 2.11L8 9.9a16 16 0 0 0 6.1 6.1l1.47-1.26a2 2 0 0 1 2.11-.45c.83.27 1.7.47 2.6.59A2 2 0 0 1 22 16.92z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Emergency Call
+              </a>
+            </div>
+          </div>
+
+          <button class="carousel-btn prev" type="button" aria-label="Previous hospital photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+          </button>
+          <button class="carousel-btn next" type="button" aria-label="Next hospital photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+          </button>
+
+          <div class="carousel-controls">
+            <div class="carousel-dots" role="group" aria-label="Choose a hospital photo">
+              <button class="dot active" type="button" aria-label="Show waiting area photo" aria-current="true"></button>
+              <button class="dot" type="button" aria-label="Show reception photo" aria-current="false"></button>
+              <button class="dot" type="button" aria-label="Show hospital exterior photo" aria-current="false"></button>
+              <button class="dot" type="button" aria-label="Show hospital exterior photo 2" aria-current="false"></button>
+            </div>
+            <button class="carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">
+              <span class="pause-symbol" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="home" class="hero home-section home-redesign">
+        <div class="home-orbit home-orbit-one" aria-hidden="true"></div>
+        <div class="home-orbit home-orbit-two" aria-hidden="true"></div>
+        <div class="container home-redesign__layout">
+          <div class="home-redesign__copy" data-reveal>
+            <p class="home-redesign__eyebrow"><span aria-hidden="true"></span> K J Hospital · Chilakaluripet</p>
+            <h2>Care that feels <em>closer</em> to home.</h2>
+            <p class="home-redesign__lead">Thoughtful, patient-centred support for you and your family — with a caring team and urgent help when you need it.</p>
+            <div class="home-redesign__actions">
+              <a class="home-redesign__button home-redesign__button--primary" href="tel:08647254801">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.12 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.59 2.6a2 2 0 0 1-.45 2.11L8 9.9a16 16 0 0 0 6.1 6.1l1.47-1.26a2 2 0 0 1 2.11-.45c.83.27 1.7.47 2.6.59A2 2 0 0 1 22 16.92z" /></svg>
+                Call our care team <span>08647-254801</span>
+              </a>
+              <a class="home-redesign__button home-redesign__button--secondary" href="#services">Explore services <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="home-redesign__trust" aria-label="Our care commitments">
+              <div><span class="home-redesign__trust-icon" aria-hidden="true">♡</span><span><strong>Compassion first</strong><small>Care with respect</small></span></div>
+              <div><span class="home-redesign__trust-icon" aria-hidden="true">⌖</span><span><strong>Close to home</strong><small>Here in Chilakaluripet</small></span></div>
+              <div><span class="home-redesign__trust-icon" aria-hidden="true">24</span><span><strong>Here when needed</strong><small>Urgent support line</small></span></div>
+            </div>
+          </div>
+          <div class="home-redesign__visual" data-reveal>
+            <div class="home-redesign__art-frame">
+              <img src="images/home/care-team-illustration.svg" alt="Illustration of a clinician offering support to a patient at K J Hospital" />
+              <div class="home-redesign__art-label"><span class="home-redesign__pulse" aria-hidden="true"></span><span><strong>Care, with a human touch</strong><small>Here for your family</small></span></div>
+            </div>
+            <a class="home-redesign__emergency" href="tel:08647254801">
+              <span class="home-redesign__emergency-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18" /></svg></span>
+              <span><small>Need urgent help?</small><strong>Tap to call the hospital</strong></span>
+              <span class="home-redesign__emergency-arrow" aria-hidden="true">↗</span>
+            </a>
+            <img class="home-redesign__sparkle" src="images/home/heart-care.svg" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div class="container narrow">
+          <p class="section-kicker">Our Approach</p>
+          <h2>Healthcare that puts patients first</h2>
+          <p>
+            At Kandimalla Jayamma Hospital, we understand that visiting a hospital can be
+            stressful for patients and their families. Our approach is centred
+            around respectful care, clear communication and appropriate medical
+            attention based on each patient's individual needs.
+          </p>
+        </div>
+      </section>
+
+      <section class="section values">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Why choose us</p>
+            <h2>Compassion, safety and continuity of care</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-item">
+              <div class="feature-illustration"><img src="images/values/patient-centred-care.svg" alt="" loading="lazy" /></div>
+              <span>01</span>
+              <h3>Patient-Centred Care</h3>
+              <p>Every patient deserves dignity, respect and compassionate treatment.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-illustration"><img src="images/values/accessible-healthcare.svg" alt="" loading="lazy" /></div>
+              <span>02</span>
+              <h3>Accessible Healthcare</h3>
+              <p>Located in Chilakaluripet for easier access to local families.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-illustration"><img src="images/values/focus-on-safety.svg" alt="" loading="lazy" /></div>
+              <span>03</span>
+              <h3>Focus on Safety</h3>
+              <p>We aim to maintain a safe, supportive environment for everyone.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-illustration"><img src="images/values/coordinated-care.svg" alt="" loading="lazy" /></div>
+              <span>04</span>
+              <h3>Coordinated Care</h3>
+              <p>Medical and support teams work together through each treatment journey.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-illustration"><img src="images/values/convenient-access.svg" alt="" loading="lazy" /></div>
+              <span>05</span>
+              <h3>Convenient Access</h3>
+              <p>Our location supports fast, practical care for nearby communities.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-illustration"><img src="images/values/continuity-of-care.svg" alt="" loading="lazy" /></div>
+              <span>06</span>
+              <h3>Continuity of Care</h3>
+              <p>We focus on follow-up and long-term health management for recovery.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="container about-layout">
+          <div class="about-copy">
+            <p class="section-kicker">About us</p>
+            <h2>Healthcare with compassion and commitment</h2>
+            <p>
+              Kandimalla Jayamma Hospital is a healthcare facility located in Chilakaluripet,
+              Andhra Pradesh, serving patients from Chilakaluripet and neighbouring
+              communities.
+            </p>
+            <p>
+              Our objective is to provide accessible healthcare in a professional and
+              supportive environment. We recognise that every patient has different
+              healthcare requirements, and our approach is focused on understanding
+              those needs and providing appropriate medical attention.
+            </p>
+            <div class="about-mission">
+              <h3>Our Mission</h3>
+              <ul>
+                <li>Patient safety</li>
+                <li>Compassionate care</li>
+                <li>Professional medical support</li>
+                <li>Respect and dignity</li>
+                <li>Timely healthcare</li>
+                <li>Clear communication</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-visual" aria-label="Illustrations of K J Hospital's care approach">
+            <figure class="about-visual-main">
+              <img src="images/about/patient-conversation.svg" alt="A clinician speaking with a patient" loading="lazy" />
+              <figcaption><span class="about-live-dot" aria-hidden="true"></span>Care that starts with listening</figcaption>
+            </figure>
+            <div class="about-visual-stack">
+              <figure class="about-visual-tile">
+                <img src="images/about/hospital-community.svg" alt="Illustration of a welcoming community hospital" loading="lazy" />
+                <figcaption>Here for our community</figcaption>
+              </figure>
+              <figure class="about-visual-tile team-tile">
+                <img src="images/about/care-team.svg" alt="Illustration of a collaborative healthcare team" loading="lazy" />
+                <figcaption>People working together</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services-section alt-bg">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Our services</p>
+            <h2>Supporting patients through every stage of care</h2>
+          </div>
+
+          <div class="card-grid service-grid">
+            <article class="service-card">
+              <div class="service-illustration"><img src="images/services/medical-consultation.svg" alt="" loading="lazy" /></div>
+              <h3>Medical Consultation</h3>
+              <p>Professional evaluation, diagnosis and treatment planning for health concerns.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-illustration"><img src="images/services/emergency-care.svg" alt="" loading="lazy" /></div>
+              <h3>Emergency & Urgent Care</h3>
+              <p>Immediate attention for critical or urgent cases. Please confirm service details directly.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-illustration"><img src="images/services/diagnostic-support.svg" alt="" loading="lazy" /></div>
+              <h3>Diagnostic Support</h3>
+              <p>Investigations that help clinicians assess conditions and plan treatment.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-illustration"><img src="images/services/in-patient-care.svg" alt="" loading="lazy" /></div>
+              <h3>In-Patient Care</h3>
+              <p>Hospitalisation, monitoring, treatment and recovery under professional supervision.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-illustration"><img src="images/services/preventive-healthcare.svg" alt="" loading="lazy" /></div>
+              <h3>Preventive Healthcare</h3>
+              <p>Awareness, early identification and guidance for healthier living.</p>
+            </article>
+            <article class="service-card">
+              <div class="service-illustration"><img src="images/services/follow-up-care.svg" alt="" loading="lazy" /></div>
+              <h3>Follow-Up Care</h3>
+              <p>Continued guidance to monitor recovery and ongoing health management.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="doctors" class="section doctors-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Doctors & Departments</p>
+            <h2>Meet our healthcare team</h2>
+            <p>
+              Doctor availability and specialist consultation timings should be
+              confirmed directly with the hospital administration.
+            </p>
+          </div>
+
+          <div class="card-grid doctor-grid">
+            <article class="doctor-card">
+              <div class="doctor-thumb">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=80" alt="Doctor profile" />
+              </div>
+              <div class="doctor-card-body">
+                <span class="doctor-badge">General</span>
+                <h3>Dr. Ananya Reddy</h3>
+                <p class="doctor-role">General Medicine</p>
+                <p>Consultation and long-term treatment planning for everyday medical concerns.</p>
+                <a href="#contact">Book Consult</a>
+              </div>
+            </article>
+            <article class="doctor-card">
+              <div class="doctor-thumb">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=80" alt="Doctor profile" />
+              </div>
+              <div class="doctor-card-body">
+                <span class="doctor-badge">Urgent</span>
+                <h3>Dr. Ravi Kumar</h3>
+                <p class="doctor-role">Emergency Care</p>
+                <p>Rapid assessment and urgent support when patients need immediate attention.</p>
+                <a href="#contact">Call Hospital</a>
+              </div>
+            </article>
+            <article class="doctor-card">
+              <div class="doctor-thumb">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=80" alt="Doctor profile" />
+              </div>
+              <div class="doctor-card-body">
+                <span class="doctor-badge">Lab</span>
+                <h3>Dr. S. Neha</h3>
+                <p class="doctor-role">Diagnostic Services</p>
+                <p>Clinical evaluation and investigations to guide accurate and timely care.</p>
+                <a href="#contact">Check Availability</a>
+              </div>
+            </article>
+            <article class="doctor-card">
+              <div class="doctor-thumb">
+                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=900&q=80" alt="Doctor profile" />
+              </div>
+              <div class="doctor-card-body">
+                <span class="doctor-badge">Care</span>
+                <h3>Dr. K. N. Rao</h3>
+                <p class="doctor-role">In-Patient Care</p>
+                <p>Compassionate supervision and recovery support for admitted patients.</p>
+                <a href="#contact">Speak With Team</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="patient-info" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Patient information</p>
+            <h2>Preparing for a smoother hospital visit</h2>
+          </div>
+
+          <div class="checklist-grid">
+            <div class="check-item">
+              <h3>Before Your Visit</h3>
+              <ul>
+                <li>Government-issued identification</li>
+                <li>Previous medical reports</li>
+                <li>Prescription and lab reports</li>
+                <li>Insurance and referral documents</li>
+              </ul>
+            </div>
+            <div class="check-item">
+              <h3>During Consultation</h3>
+              <ul>
+                <li>Current symptoms</li>
+                <li>Previous medical conditions</li>
+                <li>Current medications and allergies</li>
+                <li>Relevant treatment history</li>
+              </ul>
+            </div>
+            <div class="check-item">
+              <h3>Follow-Up Visits</h3>
+              <ul>
+                <li>Previous prescriptions</li>
+                <li>Reports and discharge documents</li>
+                <li>Any recent imaging or test results</li>
+              </ul>
+            </div>
+            <div class="check-item">
+              <h3>Insurance & Billing</h3>
+              <ul>
+                <li>Accepted insurers</li>
+                <li>Cashless treatment availability</li>
+                <li>TPA procedures and pre-authorisation</li>
+                <li>Billing and payment methods</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="facilities" class="section facility-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Facilities</p>
+            <h2>Comfortable support for patients and families</h2>
+          </div>
+
+          <div class="card-grid facility-grid">
+            <article class="facility-card">
+              <div class="facility-art"><img src="images/facilities/patient-care-areas.svg" alt="" loading="lazy" /></div>
+              <div class="facility-card-body"><span class="facility-number">01</span><h3>Patient Care Areas</h3></div>
+            </article>
+            <article class="facility-card">
+              <div class="facility-art"><img src="images/facilities/in-patient-facilities.svg" alt="" loading="lazy" /></div>
+              <div class="facility-card-body"><span class="facility-number">02</span><h3>In-Patient Facilities</h3></div>
+            </article>
+            <article class="facility-card">
+              <div class="facility-art"><img src="images/facilities/nursing-support.svg" alt="" loading="lazy" /></div>
+              <div class="facility-card-body"><span class="facility-number">03</span><h3>Nursing Support</h3></div>
+            </article>
+            <article class="facility-card">
+              <div class="facility-art"><img src="images/facilities/diagnostic-support.svg" alt="" loading="lazy" /></div>
+              <div class="facility-card-body"><span class="facility-number">04</span><h3>Diagnostic Support</h3></div>
+            </article>
+            <article class="facility-card">
+              <div class="facility-art"><img src="images/facilities/waiting-areas.svg" alt="" loading="lazy" /></div>
+              <div class="facility-card-body"><span class="facility-number">05</span><h3>Patient Waiting Areas</h3></div>
+            </article>
+            <article class="facility-card">
+              <div class="facility-art"><img src="images/facilities/pharmacy-support.svg" alt="" loading="lazy" /></div>
+              <div class="facility-card-body"><span class="facility-number">06</span><h3>Pharmacy Support</h3></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wellness-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Health & Wellness</p>
+            <h2>Promoting awareness and healthier communities</h2>
+          </div>
+
+          <div class="card-grid wellness-grid">
+            <article class="wellness-card">
+              <div class="wellness-illustration"><img src="images/wellness/health-tips.svg" alt="" loading="lazy" /></div>
+              <span class="wellness-tag">Everyday wellbeing</span>
+              <h3>Health Tips</h3>
+              <p>Guidance for daily well-being, nutrition and healthy routines.</p>
+            </article>
+            <article class="wellness-card">
+              <div class="wellness-illustration"><img src="images/wellness/awareness-programs.svg" alt="" loading="lazy" /></div>
+              <span class="wellness-tag">Community education</span>
+              <h3>Awareness Programs</h3>
+              <p>Educational initiatives that support early detection and health literacy.</p>
+            </article>
+            <article class="wellness-card">
+              <div class="wellness-illustration"><img src="images/wellness/medical-camps.svg" alt="" loading="lazy" /></div>
+              <span class="wellness-tag">Local outreach</span>
+              <h3>Medical Camps</h3>
+              <p>Community-focused health events designed for accessibility and screening.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Gallery</p>
+            <h2>Moments from our healthcare environment</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item item-one" style="background-image: url('images/3.jpg');">
+              <span>Care Environment</span>
+            </div>
+            <div class="gallery-item item-two" style="background-image: url('images/4.jpg');">
+              <span>Consultation</span>
+            </div>
+            <div class="gallery-item item-three" style="background-image: url('images/5.jpg');">
+              <span>Supportive Team</span>
+            </div>
+            <div class="gallery-item item-four" style="background-image: url('images/6.jpg');">
+              <span>Patient Comfort</span>
+            </div>
+            <div class="gallery-item item-five" style="background-image: url('images/7.jpg');">
+              <span>Emergency Care</span>
+            </div>
+            <div class="gallery-item item-six" style="background-image: url('images/8.jpg');">
+              <span>Diagnostic Support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="location" class="section location-section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Find Us</p>
+          </div>
+
+          <div class="location-map-card" aria-label="K J Hospital Google map location">
+            <div class="map-card-header">
+              <div>
+                <p class="map-label">Location</p>
+                <h3>K J Hospital Google map location</h3>
+              </div>
+              <p class="map-hours">24 Hours / 7 Days</p>
+            </div>
+            <iframe
+              title="K J Hospital Google Map"
+              src="https://www.google.com/maps?q=K%20J%20Hospital%204-176%205th%20Lane%20Pandaripuram%20Venugonda%20Chilakaluripet%20Andhra%20Pradesh%20522616&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="section-kicker">Contact us</p>
+            <h2>Visit K J Hospital</h2>
+            <p class="address">
+              K J Hospital<br />
+              4-176, 5th Lane, Pandaripuram,<br />
+              Venugonda, Chilakaluripet,<br />
+              Andhra Pradesh – 522616, India.
+            </p>
+            <p>
+              For specific department availability, doctor consultation timings and
+              emergency service details, please contact the hospital directly.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="https://maps.google.com/?q=K+J+H+Hospital+Chilakaluripet" target="_blank" rel="noreferrer">Get Directions</a>
+              <a class="btn btn-secondary" href="tel:+919999999999">Call Hospital</a>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <h3>Enquiry</h3>
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Phone Number
+              <input type="tel" name="phone" placeholder="Your phone" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <strong>K J Hospital</strong>
+          <p>Compassionate, patient-centred healthcare for local communities.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#services">Our Services</a>
+          <a href="#facilities">Facilities</a>
+          <a href="#contact">Location</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p>Emergency assistance: contact hospital directly</p>
+          <p>K J Hospital, Chilakaluripet, Andhra Pradesh – 522616</p>
+          <p>© <span id="year"></span> K J Hospital</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+      <span class="scroll-arrow">&#8593;</span>
+    </button>
+
+    <script src="script.js?v=6"></script>
+  </body>
+</html>

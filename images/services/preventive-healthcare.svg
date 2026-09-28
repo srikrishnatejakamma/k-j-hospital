@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Preventive healthcare illustration</title>
+  <rect width="480" height="240" rx="22" fill="#f0f7e9"/>
+  <circle cx="91" cy="48" r="59" fill="#e2f0d5"/><circle cx="403" cy="207" r="75" fill="#e4f0d8"/>
+  <path d="M235 45c37 23 73 23 105 25v51c0 44-34 74-105 100-71-26-105-56-105-100V70c32-2 68-2 105-25z" fill="#fff" stroke="#cde1c2" stroke-width="4"/>
+  <path d="M235 78c-30 0-54 24-54 54 0 28 22 52 50 54v-41h-22v-19h22v-15c0-18 11-29 28-29 8 0 15 1 18 2v18h-11c-9 0-12 5-12 12v12h22l-4 19h-18v41c28-4 49-27 49-54 0-30-24-54-54-54z" fill="#23a899"/>
+  <path d="M221 136h14m-7-7v14" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M92 151c0-23 19-42 42-42-1 24-19 42-42 42zm0 0c0-19-15-34-34-34 0 20 15 34 34 34zm0 0v28" fill="none" stroke="#7ab85e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

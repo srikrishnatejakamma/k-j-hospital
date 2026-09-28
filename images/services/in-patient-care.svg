@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">In-patient care illustration</title>
+  <rect width="480" height="240" rx="22" fill="#eaf6f1"/>
+  <circle cx="405" cy="48" r="63" fill="#d9eee7"/><circle cx="70" cy="217" r="62" fill="#dbeff4"/>
+  <rect x="117" y="56" width="245" height="128" rx="19" fill="#fff" stroke="#cce3d9" stroke-width="3"/>
+  <path d="M143 153V91a14 14 0 0 1 14-14h41a14 14 0 0 1 14 14v62" fill="#d8edf4"/>
+  <path d="M212 125h120a14 14 0 0 1 14 14v14H212z" fill="#93cfc3"/>
+  <path d="M143 153h203v15H143z" fill="#3f7980"/>
+  <path d="M154 168v16m181-16v16" stroke="#3f7980" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="185" cy="106" r="13" fill="#f1bd8d"/>
+  <path d="M174 122h27v31h-27z" fill="#6ca9ba"/>
+  <path d="M263 92v27m-13-13h27" stroke="#17a59e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M85 71h39m-20-20v40" stroke="#72bbae" stroke-width="7" stroke-linecap="round"/>
+</svg>

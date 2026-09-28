@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Nursing support</title>
+  <rect width="480" height="240" rx="24" fill="#f2edff"/>
+  <circle cx="405" cy="38" r="69" fill="#e4ddfa"/><circle cx="60" cy="221" r="70" fill="#e1f1ef"/>
+  <rect x="61" y="42" width="358" height="157" rx="20" fill="#fbfaff"/>
+  <circle cx="210" cy="100" r="33" fill="#edc29b"/>
+  <path d="M177 99c2-46 66-51 69 0-20-1-36-12-45-25-5 12-13 20-24 25z" fill="#354a61"/>
+  <path d="M147 181c6-48 26-73 63-73s56 25 63 73" fill="#72b9ae"/>
+  <path d="M202 116v17m-9-9h18" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <rect x="293" y="82" width="65" height="86" rx="10" fill="#fff" stroke="#cbd8ec" stroke-width="4" transform="rotate(5 293 82)"/>
+  <path d="m307 119 9 9 20-23m-23 36h25" fill="none" stroke="#6d84c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M136 155c-22 0-35-14-35-34" fill="none" stroke="#e5a87a" stroke-width="5" stroke-linecap="round"/>
+</svg>

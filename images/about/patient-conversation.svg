@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 650" role="img" aria-labelledby="title">
+  <title id="title">A clinician speaking with a patient</title>
+  <rect width="560" height="650" rx="34" fill="#e9f5f3"/>
+  <circle cx="470" cy="92" r="118" fill="#d5ebe8"/>
+  <circle cx="82" cy="562" r="126" fill="#d9eef1"/>
+  <rect x="58" y="70" width="444" height="490" rx="26" fill="#f8fcfb"/>
+  <rect x="332" y="111" width="132" height="163" rx="13" fill="#dceef1"/>
+  <path d="M398 111v163m-66-82h132" stroke="#fff" stroke-width="9"/>
+  <path d="M78 470h404v45H78z" fill="#79b7b0"/>
+  <path d="M110 514v46m340-46v46" stroke="#477d81" stroke-width="16" stroke-linecap="round"/>
+  <rect x="199" y="381" width="171" height="91" rx="16" fill="#f1c89f"/>
+  <path d="M191 414h189v76H191z" fill="#efa977"/>
+  <path d="M214 472v-28a24 24 0 0 1 24-24h93a24 24 0 0 1 24 24v28" fill="#5d9daf"/>
+  <circle cx="279" cy="300" r="48" fill="#efc29c"/>
+  <path d="M231 299c1-57 91-74 104-10-20-6-36-18-46-34-9 22-28 37-58 44z" fill="#294b5c"/>
+  <path d="M222 373c9-42 29-63 61-63 35 0 55 21 64 63l-19 69h-88z" fill="#f7fbfa"/>
+  <path d="m278 326 10 27 10-27" fill="none" stroke="#3a9b9b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="174" y="362" width="29" height="77" rx="8" fill="#fff" stroke="#cfdfdc" stroke-width="4" transform="rotate(-8 174 362)"/>
+  <path d="m183 382 10 1m-12 13 12 1m-13 13 9 1" stroke="#8bbfba" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="427" cy="357" r="33" fill="#fff"/>
+  <path d="M427 374s-19-11-19-24c0-11 13-16 19-6 6-10 19-5 19 6 0 13-19 24-19 24z" fill="#e77768"/>
+</svg>

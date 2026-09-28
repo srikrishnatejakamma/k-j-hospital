@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Pharmacy support</title>
+  <rect width="480" height="240" rx="24" fill="#f0f3ff"/>
+  <circle cx="74" cy="42" r="64" fill="#e2e6fc"/><circle cx="412" cy="216" r="74" fill="#e0f1ed"/>
+  <rect x="62" y="44" width="356" height="154" rx="20" fill="#fbfcff"/>
+  <path d="M104 77h270M104 129h270M104 181h270" stroke="#d5def1" stroke-width="7" stroke-linecap="round"/>
+  <rect x="124" y="88" width="42" height="36" rx="8" fill="#9accc0"/>
+  <rect x="180" y="80" width="47" height="44" rx="10" fill="#f0b274"/>
+  <rect x="247" y="92" width="51" height="32" rx="8" fill="#8999db"/>
+  <rect x="321" y="85" width="33" height="39" rx="8" fill="#e88376"/>
+  <path d="M143 96v18m-9-9h18" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M197 102h13" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M266 108h13" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M337 95v20m-8-10h16" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <rect x="151" y="143" width="81" height="29" rx="14.5" fill="#f5ddc7" transform="rotate(-13 151 143)"/>
+  <path d="m190 135 18 58" stroke="#e7a46f" stroke-width="5"/>
+  <circle cx="304" cy="156" r="15" fill="#88c0b2"/><circle cx="349" cy="158" r="15" fill="#eaa46e"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Patient waiting area</title>
+  <rect width="480" height="240" rx="24" fill="#fff4e9"/>
+  <circle cx="413" cy="41" r="69" fill="#ffe8d1"/><circle cx="62" cy="221" r="73" fill="#e2f1ec"/>
+  <rect x="58" y="44" width="364" height="153" rx="20" fill="#fffdfa"/>
+  <rect x="101" y="69" width="118" height="65" rx="10" fill="#e7f2f4"/>
+  <path d="M160 69v65m-59-32h118" stroke="#fff" stroke-width="7"/>
+  <path d="M98 171v-24a11 11 0 0 1 11-11h66a11 11 0 0 1 11 11v24m-88-14h88m-78 14v11m68-11v11" fill="#eba66c" stroke="#ce8855" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M222 171v-24a11 11 0 0 1 11-11h66a11 11 0 0 1 11 11v24m-88-14h88m-78 14v11m68-11v11" fill="#7eb9b0" stroke="#589b91" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M343 170v-37m-16 37h34" stroke="#70a77e" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="343" cy="119" r="20" fill="#83be8d"/><circle cx="324" cy="132" r="14" fill="#9acc93"/><circle cx="360" cy="131" r="15" fill="#73b584"/>
+</svg>

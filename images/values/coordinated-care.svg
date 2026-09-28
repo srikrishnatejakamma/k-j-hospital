@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title">
+  <title id="title">Coordinated care illustration</title>
+  <rect width="480" height="240" rx="22" fill="#fff2e9"/>
+  <circle cx="408" cy="48" r="65" fill="#ffe5d4"/><circle cx="64" cy="213" r="72" fill="#e4f1f4"/>
+  <path d="M167 100 236 65l77 38m-142 73 64-39 70 39" fill="none" stroke="#e7b187" stroke-width="7" stroke-linecap="round" stroke-dasharray="8 11"/>
+  <circle cx="153" cy="95" r="34" fill="#fff" stroke="#f0d8c7" stroke-width="3"/>
+  <circle cx="326" cy="104" r="34" fill="#fff" stroke="#f0d8c7" stroke-width="3"/>
+  <circle cx="236" cy="171" r="34" fill="#fff" stroke="#f0d8c7" stroke-width="3"/>
+  <circle cx="153" cy="83" r="12" fill="#f2c49c"/><path d="M132 115c3-15 10-22 21-22s18 7 21 22" fill="#328ba0"/>
+  <circle cx="326" cy="92" r="12" fill="#f2c49c"/><path d="M305 124c3-15 10-22 21-22s18 7 21 22" fill="#79b6ad"/>
+  <circle cx="236" cy="159" r="12" fill="#f2c49c"/><path d="M215 191c3-15 10-22 21-22s18 7 21 22" fill="#818cda"/>
+  <circle cx="240" cy="104" r="24" fill="#e77768"/><path d="M240 92v24m-12-12h24" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+</svg>

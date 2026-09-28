@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-labelledby="title">
+  <title id="title">A collaborative healthcare team</title>
+  <rect width="360" height="260" rx="24" fill="#f1edff"/>
+  <circle cx="48" cy="48" r="48" fill="#e4ddff"/><circle cx="325" cy="223" r="55" fill="#e0f1ef"/>
+  <path d="M77 221c7-48 26-73 58-73s51 25 58 73" fill="#498fa0"/>
+  <path d="M178 221c6-57 28-85 66-85s60 28 66 85" fill="#6ab5a8"/>
+  <circle cx="135" cy="99" r="38" fill="#eabd98"/><circle cx="244" cy="86" r="42" fill="#edc7a4"/>
+  <path d="M97 96c1-50 74-63 82-4-22-1-43-11-56-28-4 13-13 24-26 32z" fill="#374f68"/>
+  <path d="M201 83c1-57 86-69 91-5-22-2-43-13-57-32-5 17-17 29-34 37z" fill="#4c556a"/>
+  <path d="M131 147v30m113-41v39" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M122 176h28m90-1h28" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="180" cy="120" r="25" fill="#fff"/>
+  <path d="M180 107v26m-13-13h26" stroke="#e77768" stroke-width="7" stroke-linecap="round"/>
+</svg>
