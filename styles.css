@@ -3980,6 +3980,29 @@ textarea:focus-visible {
   }
 }
 
+@media (max-width: 520px) {
+  .home-redesign__visual {
+    width: min(100%, 390px);
+  }
+}
+
+@media (max-width: 380px) {
+  .home-redesign__visual {
+    width: min(100%, 300px);
+  }
+
+  .home-redesign__art-label {
+    right: 0.35rem;
+    bottom: 1.1rem;
+    padding: 0.55rem 0.6rem;
+  }
+
+  .home-redesign__emergency {
+    max-width: calc(100% - 1.5rem);
+    gap: 0.55rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .home-redesign__art-frame,
   .home-redesign__sparkle,
