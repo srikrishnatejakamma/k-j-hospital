@@ -4003,6 +4003,39 @@ textarea:focus-visible {
   }
 }
 
+.banner-carousel .banner-portrait {
+  position: absolute;
+  z-index: 3;
+  right: clamp(4rem, 8vw, 7rem);
+  bottom: 0;
+  width: auto;
+  height: 62%;
+  max-width: 42%;
+  object-fit: contain;
+  object-position: center bottom;
+  opacity: 0.74;
+  filter: drop-shadow(0 16px 28px rgba(3, 20, 29, 0.25));
+  pointer-events: none;
+}
+
+@media (max-width: 700px) {
+  .banner-carousel .banner-portrait {
+    top: 5.4rem;
+    right: 0.75rem;
+    bottom: auto;
+    height: 140px;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 380px) {
+  .banner-carousel .banner-portrait {
+    top: 5.2rem;
+    right: 0.55rem;
+    height: 120px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .home-redesign__art-frame,
   .home-redesign__sparkle,
