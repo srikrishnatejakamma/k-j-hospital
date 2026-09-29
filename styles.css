@@ -4009,7 +4009,7 @@ textarea:focus-visible {
   right: clamp(4rem, 8vw, 7rem);
   bottom: 0;
   width: auto;
-  height: 62%;
+  height: 31%;
   max-width: 42%;
   object-fit: contain;
   object-position: center bottom;
@@ -4023,7 +4023,7 @@ textarea:focus-visible {
     top: 5.4rem;
     right: 0.75rem;
     bottom: auto;
-    height: 140px;
+    height: 70px;
     max-width: 45%;
   }
 }
@@ -4032,7 +4032,7 @@ textarea:focus-visible {
   .banner-carousel .banner-portrait {
     top: 5.2rem;
     right: 0.55rem;
-    height: 120px;
+    height: 60px;
   }
 }
 

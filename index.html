@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
-    <link rel="stylesheet" href="styles.css?v=19" />
+    <link rel="stylesheet" href="styles.css?v=20" />
   </head>
   <body>
     <header class="site-header">
@@ -54,16 +54,19 @@
       <section class="banner-section" aria-label="K J Hospital photo carousel">
         <div class="banner-carousel" aria-roledescription="carousel" aria-label="Hospital photos">
           <div class="carousel-track">
-            <article class="slide active" role="group" aria-roledescription="slide" aria-label="1 of 4" aria-hidden="false">
-              <img src="images/item1.png" alt="Patient seating and waiting area at K J Hospital" fetchpriority="high" />
+            <article class="slide active" role="group" aria-roledescription="slide" aria-label="1 of 5" aria-hidden="false">
+              <img src="images/item3.webp" alt="Exterior of K J Hospital" fetchpriority="high" />
             </article>
-            <article class="slide" role="group" aria-roledescription="slide" aria-label="2 of 4" aria-hidden="true">
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="2 of 5" aria-hidden="true">
+              <img src="images/item1.png" alt="Patient seating and waiting area at K J Hospital" loading="lazy" />
+            </article>
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="3 of 5" aria-hidden="true">
+              <img src="images/item.png" alt="Doctor consulting with a patient and family member" loading="lazy" />
+            </article>
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="4 of 5" aria-hidden="true">
               <img src="images/item2.webp" alt="Reception desk at K J Hospital" loading="lazy" />
             </article>
-            <article class="slide" role="group" aria-roledescription="slide" aria-label="3 of 4" aria-hidden="true">
-              <img src="images/item3.webp" alt="Exterior of K J Hospital" loading="lazy" />
-            </article>
-            <article class="slide" role="group" aria-roledescription="slide" aria-label="4 of 4" aria-hidden="true">
+            <article class="slide" role="group" aria-roledescription="slide" aria-label="5 of 5" aria-hidden="true">
               <img src="images/item4.webp" alt="Exterior of K J Hospital" loading="lazy" />
             </article>
           </div>
@@ -94,9 +97,10 @@
 
           <div class="carousel-controls">
             <div class="carousel-dots" role="group" aria-label="Choose a hospital photo">
-              <button class="dot active" type="button" aria-label="Show waiting area photo" aria-current="true"></button>
+              <button class="dot active" type="button" aria-label="Show hospital exterior photo" aria-current="true"></button>
+              <button class="dot" type="button" aria-label="Show waiting area photo" aria-current="false"></button>
+              <button class="dot" type="button" aria-label="Show consultation photo" aria-current="false"></button>
               <button class="dot" type="button" aria-label="Show reception photo" aria-current="false"></button>
-              <button class="dot" type="button" aria-label="Show hospital exterior photo" aria-current="false"></button>
               <button class="dot" type="button" aria-label="Show hospital exterior photo 2" aria-current="false"></button>
             </div>
             <button class="carousel-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false">
