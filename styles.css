@@ -4112,3 +4112,161 @@ textarea:focus-visible {
     justify-content: space-between;
   }
 }
+
+/* Final small-screen layout and type refinements */
+@media (max-width: 700px) {
+  .banner-carousel {
+    height: min(700px, 90svh);
+    min-height: 620px;
+  }
+
+  .banner-carousel .banner-overlay {
+    padding: 6rem 1.1rem 4.5rem;
+  }
+
+  .banner-carousel .banner-overlay .banner-title {
+    font-size: clamp(2.25rem, 9.5vw, 3.3rem);
+  }
+
+  .section {
+    padding: 3.25rem 0;
+  }
+
+  .section-header {
+    margin-bottom: 1.7rem;
+  }
+
+  .about-visual {
+    min-height: 390px;
+  }
+
+  .service-illustration {
+    height: 158px;
+  }
+
+  .facility-art {
+    height: 150px;
+  }
+
+  .wellness-illustration {
+    height: 145px;
+  }
+
+  .doctor-thumb {
+    height: 210px;
+  }
+
+  .gallery-item {
+    min-height: 195px;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    font-size: 0.96rem;
+    line-height: 1.65;
+  }
+
+  .container {
+    width: min(calc(100% - 1.5rem), 1120px);
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-header h2,
+  .two-column h2,
+  .contact-copy h2,
+  .intro h2,
+  .about-copy h2 {
+    font-size: clamp(1.75rem, 7.8vw, 2.25rem);
+    line-height: 1.12;
+  }
+
+  .section-header > p:not(.section-kicker),
+  .intro .narrow > p:last-child,
+  .about-copy > p:not(.section-kicker),
+  .service-card p,
+  .feature-item p,
+  .wellness-grid .wellness-card p,
+  .contact-copy p:not(.section-kicker) {
+    font-size: 0.94rem;
+    line-height: 1.65;
+  }
+
+  .home-section.home-redesign {
+    padding: 3rem 0 3.75rem;
+  }
+
+  .home-redesign__copy h2 {
+    font-size: clamp(2.2rem, 10vw, 3rem);
+  }
+
+  .home-redesign__lead {
+    font-size: 0.98rem;
+  }
+
+  .home-redesign__trust {
+    padding-top: 1.15rem;
+  }
+
+  .about-visual {
+    height: min(92vw, 350px);
+    min-height: 300px;
+  }
+
+  .feature-item h3,
+  .service-card h3,
+  .facility-card h3,
+  .wellness-grid .wellness-card h3,
+  .check-item h3 {
+    font-size: 1.05rem;
+  }
+
+  .feature-item,
+  .service-card,
+  .wellness-grid .wellness-card,
+  .check-item {
+    border-radius: 1.1rem;
+  }
+
+  .feature-item > p,
+  .service-card > p,
+  .check-item > p {
+    margin-bottom: 0;
+  }
+
+  .btn {
+    min-height: 46px;
+    padding: 0.7rem 1rem;
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .banner-carousel {
+    height: min(660px, 88svh);
+    min-height: 590px;
+  }
+
+  .banner-carousel .banner-overlay {
+    padding: 5.7rem 0.9rem 4rem;
+  }
+
+  .banner-carousel .banner-overlay .banner-title {
+    font-size: clamp(2.1rem, 9vw, 2.65rem);
+  }
+
+  .home-redesign__copy h2 {
+    font-size: 2.2rem;
+  }
+
+  .section-header h2,
+  .two-column h2,
+  .contact-copy h2,
+  .intro h2,
+  .about-copy h2 {
+    font-size: 1.72rem;
+  }
+}
